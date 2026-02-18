@@ -30,3 +30,5 @@ savings = monthlyIncome * .3
 wants = monthlyIncome * .2
 
 print(f"Needs: {needs}, Savings: {savings}, Wants: {wants}")
+
+# TODO Add open() to write results to a file and save to downloads
