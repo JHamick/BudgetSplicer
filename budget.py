@@ -29,6 +29,8 @@ needs = monthlyIncome * .5
 savings = monthlyIncome * .3
 wants = monthlyIncome * .2
 
-print(f"Needs: {needs}, Savings: {savings}, Wants: {wants}")
+print(f"Needs: ${needs}, Savings: ${savings}, Wants: ${wants}")
 
 # TODO Add open() to write results to a file and save to downloads
+budget = open("New Budget", "w")
+budget.write(f"Needs: {needs}, Savings: {savings}, Wants: {wants}")
